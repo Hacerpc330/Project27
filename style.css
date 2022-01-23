@@ -1,0 +1,66 @@
+body{
+    background: url(./img/Cosmos.jpg);
+    background-size: cover;
+}
+
+#block{
+    color: rgb(226, 116, 43);
+    text-align: center;
+}
+.my_buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my_buttons button{
+    background-color: rgba(165, 41, 41, 0.425);
+    padding: 15px 40px;
+    color: blanchedalmond;
+    border: none;
+    transition: all 0.5s;
+}
+.my_buttons button:hover{
+    background-color: rgb(194, 84, 0);
+}
+.summ{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+.Cv{
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    text-align: center;
+}
+.CVimg{
+    width: 200px;
+}
+.registration{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    text-align: center;
+}
+.registration input{
+    margin-bottom: 50px;
+}
+.Cv{
+    display: none;
+}
+.registration{
+    display: none;
+}
+.backround{
+    width: 300px;
+    height: 500px;
+    background: url(./img/);
+    background-position: top;
+}
+.container{
+    margin-left: 350px;
+}
